@@ -12,7 +12,9 @@ function distanceFromHqInBlocks(blocks) {
   function distanceFromHqInFeet(blocks) {
     const distance = distanceFromHqInBlocks(blocks)
     return distance * 264
+    console.log(blocks)
   }
+  
 
   function distanceTravelledInFeet(start, end){
     if (start < end) {
