@@ -12,7 +12,7 @@ function distanceFromHqInBlocks(blocks) {
   function distanceFromHqInFeet(blocks) {
     const distance = distanceFromHqInBlocks(blocks)
     return distance * 264
-    console.log(distanceFromHqInFeet(blocks))
+    console.log('is this running')
   }
 
 
